@@ -67,8 +67,9 @@ ai-misinformation-toolkit/
     │
     └── examples/
         ├── content-to-check.md        ← Sample input
-        ├── full-check.md              ← Example output: full pipeline
-        └── simple-general-check.md   ← Example output: simple pipeline
+        ├── oneshot-check.md           ← Example output: one-shot prompt
+        ├── simple-general-check.md   ← Example output: simple pipeline
+        └── full-check.md              ← Example output: full pipeline
 ```
 
 ---
@@ -212,13 +213,15 @@ Every `[fc]` response ends with a structured verification summary using this fla
 
 ## 📄 Examples
 
-Two complete worked examples are included in [`examples/`](https://github.com/infinitimeless/ai-misinformation-toolkit/tree/main/ai-analytical-verification-setups/examples) using the same input (a 20-tweet thread about agentic AI).
+Three complete worked examples are included in [`examples/`](https://github.com/infinitimeless/ai-misinformation-toolkit/tree/main/ai-analytical-verification-setups/examples) using the same input (a 20-tweet thread about agentic AI).
+
+**[`oneshot-check.md`](https://github.com/infinitimeless/ai-misinformation-toolkit/blob/main/ai-analytical-verification-setups/examples/oneshot-check.md)** — Output from the one-shot prompt. Shows what you get from a single pasted prompt with no project configuration.
 
 **[`simple-general-check.md`](https://github.com/infinitimeless/ai-misinformation-toolkit/blob/main/ai-analytical-verification-setups/examples/simple-general-check.md)** — Output from the simple setup. Covers claim summary, key facts, analysis, logical issues, cognitive biases, source assessment, and confidence level. Readable and structured without being exhaustive.
 
 **[`full-check.md`](https://github.com/infinitimeless/ai-misinformation-toolkit/blob/main/ai-analytical-verification-setups/examples/full-check.md)** — Output from the full `[fc]` pipeline. Section-by-section breakdown of factual claims, fallacies detected, reader and author biases, source evaluation table, disinformation patterns, and a full verification summary with flags.
 
-Reading both examples side by side is the fastest way to understand the difference between the two configured setups.
+Reading all three examples side by side is the fastest way to understand the difference between the three setups.
 
 ---
 
