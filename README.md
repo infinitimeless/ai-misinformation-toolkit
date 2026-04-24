@@ -2,9 +2,6 @@
 <img width="322" height="480" alt="gif" src="https://github.com/user-attachments/assets/2fad77d6-5006-4840-a9fb-22569f3fa1b6" />
 </p>
   
-<p align="center">
-<img width="322" height="480" alt="gif" src="https://github.com/user-attachments/assets/2fad77d6-5006-4840-a9fb-22569f3fa1b6" />
-</p>
 
 <h1 align="center">ai-misinformation-toolkit</h1>
 

@@ -1,5 +1,4 @@
 # Manifesto
-# Manifesto
 
 ## Why this exists
 
