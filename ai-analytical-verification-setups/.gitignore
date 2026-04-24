@@ -1,2 +1,11 @@
 .DS_Store
 *.DS_Store
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+*.pid
+*.cache
+*.lock
+*.tmp
