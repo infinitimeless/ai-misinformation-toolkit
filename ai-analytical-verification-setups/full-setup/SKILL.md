@@ -1,4 +1,3 @@
-
 ---
 name: fc-fact-checker
 description: >
