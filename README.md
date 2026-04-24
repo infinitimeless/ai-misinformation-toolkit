@@ -79,15 +79,15 @@ You have three options depending on how much setup you want.
 
 ### Option 1 — One-shot prompt (zero setup)
 
-Copy the contents of `oneshot-prompt.md` and paste it at the top of any conversation with Claude, followed by the content you want analyzed. No project, no configuration needed.
+Copy the contents of [`oneshot-prompt.md`](https://github.com/infinitimeless/ai-misinformation-toolkit/blob/main/ai-analytical-verification-setups/oneshot-prompt.md) and paste it at the top of any conversation with Claude, followed by the content you want analyzed. No project, no configuration needed.
 
 Best for: occasional use, quick checks, testing the system.
 
 ### Option 2 — Simple setup (Claude Project)
 
 1. Create a new Claude Project
-2. Paste `simple-general-setup.md` as the **Project Instructions**
-3. Upload all files from `documents-for-both-setups/` as **Project Knowledge**
+2. Paste [`simple-general-setup.md`](https://github.com/infinitimeless/ai-misinformation-toolkit/blob/main/ai-analytical-verification-setups/simple-general-setup.md) as the **Project Instructions**
+3. Upload all files from [`documents-for-both-setups/`](https://github.com/infinitimeless/ai-misinformation-toolkit/tree/main/ai-analytical-verification-setups/documents-for-both-setups) as **Project Knowledge**
 4. Start chatting — paste any claim, article, post, or argument and ask for analysis
 
 Best for: regular use without the full analytical overhead.
@@ -95,10 +95,10 @@ Best for: regular use without the full analytical overhead.
 ### Option 3 — Full setup (Claude Project + [fc] skill)
 
 1. Create a new Claude Project
-2. Paste `full-setup/instructions.md` as the **Project Instructions**
-3. Copy `full-setup/description.md` into the **Project Description**
-4. Upload all files from `documents-for-both-setups/` as **Project Knowledge**
-5. Upload `full-setup/SKILL.md` as an additional knowledge document
+2. Paste [`full-setup/instructions.md`](https://github.com/infinitimeless/ai-misinformation-toolkit/blob/main/ai-analytical-verification-setups/full-setup/instructions.md) as the **Project Instructions**
+3. Copy [`full-setup/description.md`](https://github.com/infinitimeless/ai-misinformation-toolkit/blob/main/ai-analytical-verification-setups/full-setup/description.md) into the **Project Description**
+4. Upload all files from [`documents-for-both-setups/`](https://github.com/infinitimeless/ai-misinformation-toolkit/tree/main/ai-analytical-verification-setups/documents-for-both-setups) as **Project Knowledge**
+5. Upload [`full-setup/SKILL.md`](https://github.com/infinitimeless/ai-misinformation-toolkit/blob/main/ai-analytical-verification-setups/full-setup/SKILL.md) as an additional knowledge document
 6. Prefix any message with `[fc]` to trigger the full 8-step verification pipeline
 
 Best for: serious analysis, structured outputs, recurring fact-checking workflows.
@@ -107,7 +107,7 @@ Best for: serious analysis, structured outputs, recurring fact-checking workflow
 
 ## 🔧 The Two Setups
 
-### Simple General Setup (`simple-general-setup.md`)
+### Simple General Setup ([`simple-general-setup.md`](https://github.com/infinitimeless/ai-misinformation-toolkit/blob/main/ai-analytical-verification-setups/simple-general-setup.md))
 
 A clean, neutral fact-checking system that adapts its depth to the complexity of the input.
 
@@ -121,7 +121,7 @@ Output structure is flexible. Sections appear only when they add value. Tone is 
 
 ---
 
-### Full Setup (`full-setup/`)
+### Full Setup ([`full-setup/`](https://github.com/infinitimeless/ai-misinformation-toolkit/tree/main/ai-analytical-verification-setups/full-setup))
 
 A more opinionated, rigorous configuration that turns Claude into the **Anti-Fake Demystifier** — a dedicated analytical persona with a strict methodology.
 
@@ -137,16 +137,16 @@ Key differences from the simple setup:
 
 ## 📚 Reference Documents
 
-All documents live in `documents-for-both-setups/` and are used as the knowledge base for both setups. Upload them all to your Claude Project.
+All documents live in [`documents-for-both-setups/`](https://github.com/infinitimeless/ai-misinformation-toolkit/tree/main/ai-analytical-verification-setups/documents-for-both-setups) and are used as the knowledge base for both setups. Upload them all to your Claude Project.
 
 | Document | What it covers |
 |---|---|
-| `cognitive-biases-list.md` | 200+ cognitive biases across 22 categories, with definitions and real-world examples. Covers perception, memory, reasoning, social, emotional, decision-making, financial biases and more. |
-| `logical-flaws-and-fallacies-sophism.md` | Complete taxonomy of fallacies: formal, relevance, presumption, insufficient evidence, rhetorical techniques, and interpersonal manipulation. Each entry includes a plain-language description. |
-| `epistemology-basics.md` | Foundations of knowledge, levels of evidence, burden of proof, Bayesian thinking, and common epistemic errors. Used to assess the epistemic status of any claim. |
-| `scientific-literacy-guide-misinformation-patterns.md` | Correlation vs causation, study types, statistical concepts, and warning signs of scientific misuse. Used for any claim involving data or research. |
-| `media-literacy.md` | Framing, agenda-setting, narrative bias, sensationalism, and the headline/content gap. Used to detect how information is shaped by its presentation. |
-| `source-evaluation-framework.md` | Structured framework for evaluating source credibility across five criteria: authority, accuracy, transparency, independence, and currency. |
+| [`cognitive-biases-list.md`](https://github.com/infinitimeless/ai-misinformation-toolkit/blob/main/ai-analytical-verification-setups/documents-for-both-setups/cognitive-biases-list.md) | 200+ cognitive biases across 22 categories, with definitions and real-world examples. Covers perception, memory, reasoning, social, emotional, decision-making, financial biases and more. |
+| [`logical-flaws-and-fallacies-sophism.md`](https://github.com/infinitimeless/ai-misinformation-toolkit/blob/main/ai-analytical-verification-setups/documents-for-both-setups/logical-flaws-and-fallacies-sophism.md) | Complete taxonomy of fallacies: formal, relevance, presumption, insufficient evidence, rhetorical techniques, and interpersonal manipulation. Each entry includes a plain-language description. |
+| [`epistemology-basics.md`](https://github.com/infinitimeless/ai-misinformation-toolkit/blob/main/ai-analytical-verification-setups/documents-for-both-setups/epistemology-basics.md) | Foundations of knowledge, levels of evidence, burden of proof, Bayesian thinking, and common epistemic errors. Used to assess the epistemic status of any claim. |
+| [`scientific-literacy-guide-misinformation-patterns.md`](https://github.com/infinitimeless/ai-misinformation-toolkit/blob/main/ai-analytical-verification-setups/documents-for-both-setups/scientific-literacy-guide-misinformation-patterns.md) | Correlation vs causation, study types, statistical concepts, and warning signs of scientific misuse. Used for any claim involving data or research. |
+| [`media-literacy.md`](https://github.com/infinitimeless/ai-misinformation-toolkit/blob/main/ai-analytical-verification-setups/documents-for-both-setups/media-literacy.md) | Framing, agenda-setting, narrative bias, sensationalism, and the headline/content gap. Used to detect how information is shaped by its presentation. |
+| [`source-evaluation-framework.md`](https://github.com/infinitimeless/ai-misinformation-toolkit/blob/main/ai-analytical-verification-setups/documents-for-both-setups/source-evaluation-framework.md) | Structured framework for evaluating source credibility across five criteria: authority, accuracy, transparency, independence, and currency. |
 
 You do not need to read or memorize these. When loaded as Project Knowledge, Claude references them automatically during analysis.
 
@@ -154,7 +154,7 @@ You do not need to read or memorize these. When loaded as Project Knowledge, Cla
 
 ## 🧠 The [fc] Skill
 
-The `[fc]` prefix triggers a full 8-step verification pipeline. It is defined in `full-setup/SKILL.md` and is only active in the full setup.
+The `[fc]` prefix triggers a full 8-step verification pipeline. It is defined in [`full-setup/SKILL.md`](https://github.com/infinitimeless/ai-misinformation-toolkit/blob/main/ai-analytical-verification-setups/full-setup/SKILL.md) and is only active in the full setup.
 
 **How to use it:** Start any message with `[fc]` followed by your content.
 
@@ -200,11 +200,11 @@ Every `[fc]` response ends with a structured verification summary using this fla
 
 ## 📄 Examples
 
-Two complete worked examples are included in `examples/` using the same input (a 20-tweet thread about agentic AI).
+Two complete worked examples are included in [`examples/`](https://github.com/infinitimeless/ai-misinformation-toolkit/tree/main/ai-analytical-verification-setups/examples) using the same input (a 20-tweet thread about agentic AI).
 
-**`simple-general-check.md`** — Output from the simple setup. Covers claim summary, key facts, analysis, logical issues, cognitive biases, source assessment, and confidence level. Readable and structured without being exhaustive.
+**[`simple-general-check.md`](https://github.com/infinitimeless/ai-misinformation-toolkit/blob/main/ai-analytical-verification-setups/examples/simple-general-check.md)** — Output from the simple setup. Covers claim summary, key facts, analysis, logical issues, cognitive biases, source assessment, and confidence level. Readable and structured without being exhaustive.
 
-**`full-check.md`** — Output from the full `[fc]` pipeline. Section-by-section breakdown of factual claims, fallacies detected, reader and author biases, source evaluation table, disinformation patterns, and a full verification summary with flags.
+**[`full-check.md`](https://github.com/infinitimeless/ai-misinformation-toolkit/blob/main/ai-analytical-verification-setups/examples/full-check.md)** — Output from the full `[fc]` pipeline. Section-by-section breakdown of factual claims, fallacies detected, reader and author biases, source evaluation table, disinformation patterns, and a full verification summary with flags.
 
 Reading both examples side by side is the fastest way to understand the difference between the two setups.
 
@@ -214,8 +214,8 @@ Reading both examples side by side is the fastest way to understand the differen
 
 Contributions are welcome. The most useful areas:
 
-- **`source-evaluation-framework.md`** — currently empty; a structured framework here would strengthen both setups significantly
-- **`oneshot-prompt.md`** — currently empty; a well-crafted single-prompt version would lower the barrier to entry substantially
+- **[`source-evaluation-framework.md`](https://github.com/infinitimeless/ai-misinformation-toolkit/blob/main/ai-analytical-verification-setups/documents-for-both-setups/source-evaluation-framework.md)** — currently empty; a structured framework here would strengthen both setups significantly
+- **[`oneshot-prompt.md`](https://github.com/infinitimeless/ai-misinformation-toolkit/blob/main/ai-analytical-verification-setups/oneshot-prompt.md)** — currently empty; a well-crafted single-prompt version would lower the barrier to entry substantially
 - **Additional examples** — more worked examples across different domains (health claims, political statements, scientific papers, product marketing) would make the repo far more practical
 - **Translations** — the reference documents are in English; French versions or other languages would extend reach
 - **Prompt improvements** — if you find edge cases where the system fails or produces weak output, open an issue with the input and the actual vs. expected output
