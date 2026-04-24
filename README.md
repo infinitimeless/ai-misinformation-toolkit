@@ -13,7 +13,7 @@ A reproducible, open-source toolkit for building and configuring AI assistants s
   <a href="#-what-this-is">What this is</a> ·
   <a href="#-repo-structure">Structure</a> ·
   <a href="#-quick-start">Quick Start</a> ·
-  <a href="#-the-two-setups">The Two Setups</a> ·
+  <a href="#-the-three-setups">The Three Setups</a> ·
   <a href="#-reference-documents">Reference Documents</a> ·
   <a href="#-the-fc-skill">The [fc] Skill</a> ·
   <a href="#-examples">Examples</a> ·
@@ -105,7 +105,19 @@ Best for: serious analysis, structured outputs, recurring fact-checking workflow
 
 ---
 
-## 🔧 The Two Setups
+## 🔧 The Three Setups
+
+### One-Shot Prompt ([`oneshot-prompt.md`](https://github.com/infinitimeless/ai-misinformation-toolkit/blob/main/ai-analytical-verification-setups/oneshot-prompt.md))
+
+A fully self-contained prompt that embeds the entire verification pipeline — including fallacy tables, bias categories, and output format — into a single block of text.
+
+No Claude Project required. Copy the file, paste it at the top of any conversation, add the content you want analyzed, and send.
+
+**What it covers:** the full 8-step verification pipeline, embedded reference tables for fallacies, biases, source evaluation, and scientific literacy, and a structured output format.
+
+Best for: occasional use, quick checks, or situations where you don't have access to a Claude Project.
+
+---
 
 ### Simple General Setup ([`simple-general-setup.md`](https://github.com/infinitimeless/ai-misinformation-toolkit/blob/main/ai-analytical-verification-setups/simple-general-setup.md))
 
@@ -206,7 +218,7 @@ Two complete worked examples are included in [`examples/`](https://github.com/in
 
 **[`full-check.md`](https://github.com/infinitimeless/ai-misinformation-toolkit/blob/main/ai-analytical-verification-setups/examples/full-check.md)** — Output from the full `[fc]` pipeline. Section-by-section breakdown of factual claims, fallacies detected, reader and author biases, source evaluation table, disinformation patterns, and a full verification summary with flags.
 
-Reading both examples side by side is the fastest way to understand the difference between the two setups.
+Reading both examples side by side is the fastest way to understand the difference between the two configured setups.
 
 ---
 
@@ -214,8 +226,8 @@ Reading both examples side by side is the fastest way to understand the differen
 
 Contributions are welcome. The most useful areas:
 
-- **[`source-evaluation-framework.md`](https://github.com/infinitimeless/ai-misinformation-toolkit/blob/main/ai-analytical-verification-setups/documents-for-both-setups/source-evaluation-framework.md)** — currently empty; a structured framework here would strengthen both setups significantly
-- **[`oneshot-prompt.md`](https://github.com/infinitimeless/ai-misinformation-toolkit/blob/main/ai-analytical-verification-setups/oneshot-prompt.md)** — currently empty; a well-crafted single-prompt version would lower the barrier to entry substantially
+- **[`source-evaluation-framework.md`](https://github.com/infinitimeless/ai-misinformation-toolkit/blob/main/ai-analytical-verification-setups/documents-for-both-setups/source-evaluation-framework.md)** — could be expanded with more concrete real-world examples and scoring rubrics to strengthen both setups
+- **[`oneshot-prompt.md`](https://github.com/infinitimeless/ai-misinformation-toolkit/blob/main/ai-analytical-verification-setups/oneshot-prompt.md)** — improvements and refinements to the single-prompt version are welcome; edge cases and failure modes especially
 - **Additional examples** — more worked examples across different domains (health claims, political statements, scientific papers, product marketing) would make the repo far more practical
 - **Translations** — the reference documents are in English; French versions or other languages would extend reach
 - **Prompt improvements** — if you find edge cases where the system fails or produces weak output, open an issue with the input and the actual vs. expected output
