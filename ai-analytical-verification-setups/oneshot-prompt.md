@@ -1,9 +1,5 @@
 # One-Shot Fact-Checking Prompt
 
-> **How to use:** Copy everything between the `=== PROMPT START ===` and `=== PROMPT END ===` markers. Replace `{{CONTENT_TO_CHECK}}` with the text, claim, article, or thread you want analyzed. Paste the whole thing into a new Claude conversation. No project setup, no file uploads required.
-
----
-
 === PROMPT START ===
 
 <role>
