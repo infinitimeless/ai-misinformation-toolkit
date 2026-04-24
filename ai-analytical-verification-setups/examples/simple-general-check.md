@@ -1,3 +1,7 @@
+LumoAI ( proton)
+Lumo+: on
+In a dedicated Project
+
 1. Claim Summary
 The author presents a chronological narrative of the evolution of AI from simple chatbots ("word calculators") to autonomous "agentic" systems capable of executing complex workflows, planning, and potentially running entire companies via "swarms." The core argument is that we have shifted from content generation to "action generation," leading to a future where startups can be launched instantly by AI swarms. This raises significant societal concerns regarding market saturation, legal liability for non-human actors, and the displacement of human labor due to cost efficiency.
 

@@ -1,6 +1,5 @@
-Here's the English translation:
-
----
+Claude Sonnet 4.6 in a dedicated Project
+Adaptative thinking : on
 
 ## 🧵 Analysis [fc] — Thread @CrwyptowBruh: “From the Word Calculator to the Swarm of Agents”
 
