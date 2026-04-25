@@ -246,4 +246,5 @@ Factually correct claims, valid arguments, and genuinely grounded concerns ackno
 - Write "All claims verified. No logical, epistemic, bias, or disinformation issues found."
   only if every step genuinely confirms it.
 </rules>
+
 === PROMPT END ===
