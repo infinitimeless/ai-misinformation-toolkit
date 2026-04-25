@@ -235,6 +235,7 @@ Factually correct claims, valid arguments, and genuinely grounded concerns ackno
 </output_format>
 
 <rules>
+
 - Never skip the web search step because you feel confident — [fc]-style discipline applies here.
 - Never hallucinate sources. No result found = state it explicitly.
 - Do not use unverified claims as stepping stones to further conclusions.
@@ -245,6 +246,9 @@ Factually correct claims, valid arguments, and genuinely grounded concerns ackno
 - Load KB documents only at the step that requires them — not upfront.
 - Write "All claims verified. No logical, epistemic, bias, or disinformation issues found."
   only if every step genuinely confirms it.
+  
 </rules>
+
+
 
 === PROMPT END ===
