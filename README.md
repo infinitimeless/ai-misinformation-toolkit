@@ -62,8 +62,8 @@ ai-misinformation-toolkit/
     │   ├── scientific-literacy-guide-misinformation-patterns.md
     │   ├── media-literacy.md
     │   ├── source-evaluation-framework.md
-    │   ├── content-to-check.md        ← Sample content for testing
-    │   └── skill.md                   ← Operational skill summary (arsenal)
+    │   └── content-to-check.md        ← Sample content for testing
+    │   
     │
     └── examples/
         ├── content-to-check.md        ← Sample input
@@ -113,7 +113,7 @@ For AI providers that offer both a **Project** description/instructions field an
 5. Upload the files listed in [`references-for-SKILL/references.md`](https://github.com/infinitimeless/ai-misinformation-toolkit/blob/main/ai-analytical-verification-setups/full-setup/references-for-SKILL/references.md) into the skill's references folder.
 6. Upload all files from [`project-knowledge-base/`](https://github.com/infinitimeless/ai-misinformation-toolkit/tree/main/ai-analytical-verification-setups/project-knowledge-base) as **Project Knowledge**.
 
-> Once the skill is configured, prefixing any message with `[fc]` — even in chats outside your dedicated **Project** — will trigger the full 8-step verification pipeline defined in `SKILL.md`.
+> Once the skill is configured, prefixing any message with `[fc]` — even in chats outside your dedicated **Project** — will trigger the full 8-step verification pipeline defined in the [`full-setup/SKILL.md`](https://github.com/infinitimeless/ai-misinformation-toolkit/blob/main/ai-analytical-verification-setups/full-setup/SKILL.md)
 
 ---
 
